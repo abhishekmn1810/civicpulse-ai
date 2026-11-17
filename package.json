@@ -1,0 +1,8 @@
+{
+  "name": "civicpulse-ai-prototype",
+  "version": "0.1.0",
+  "description": "Prototype civic feedback dashboard (fictional sample data, not connected to any government system)",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
