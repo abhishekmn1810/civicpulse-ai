@@ -1,6 +1,6 @@
 // Minimal static file server. No dependencies.
 const http = require('http'), fs = require('fs'), path = require('path');
-const root = path.join(__dirname, 'public'), port = process.env.PORT || 3000;
+const root = path.join(__dirname, 'docs'), port = process.env.PORT || 3000;
 const types = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript' };
 http.createServer((req, res) => {
   const u = decodeURIComponent(req.url.split('?')[0]);
